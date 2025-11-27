@@ -1,5 +1,4 @@
 // App.tsx
-import React, { FC } from 'react'
 import Header from './components/Header'
 import Breadcrumb from './components/BreadCrumb'
 import OrderDetails from './components/OrderDetails'
@@ -8,7 +7,7 @@ import ConfirmButton from './components/ConfirmButton'
 import Newsletter from './components/NewsLetter'
 import Footer from './components/Footer'
 
-const App: FC = () => {
+export default function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
@@ -25,5 +24,3 @@ const App: FC = () => {
     </div>
   )
 }
-
-export default App

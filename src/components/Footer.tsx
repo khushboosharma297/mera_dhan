@@ -1,7 +1,6 @@
 // Footer.tsx
-import React, { FC } from 'react'
 
-const Footer: FC = () => {
+export default function Footer(){
   return (
     <footer className="bg-gray-900 text-gray-300 py-12">
       <div className="max-w-7xl mx-auto px-4">
@@ -82,4 +81,3 @@ const Footer: FC = () => {
   )
 }
 
-export default Footer
